@@ -1,0 +1,374 @@
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(../fonts/gilroy-medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../fonts/gilroy-bold.ttf);
+}
+
+body {
+    font-family: Gilroy-Medium;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(../media/header-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #000;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #868686;
+}
+
+.header-content {
+    display: flex;
+}
+
+.content-left {
+    background-color: #fff;
+    text-align: center;
+    padding: 45px 0;
+    border: 1px solid #000;
+}
+
+.left-img {
+    margin-bottom: 30px;
+}
+
+.left-title {
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.left-title span {
+    color: #868686;
+}
+
+.left-desc {
+    display: inline;
+    font-family: Gilroy-Bold;
+    background-color: #868686;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 5px;
+}
+
+.content-right {
+    color: #fff;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.right-title {
+    width: 20ch;
+    margin-top: 50px;
+    margin-bottom: 170px;
+    padding: 25px 20px;
+    background-color: #333333;
+    font-family: Gilroy-Bold, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 40px;
+    animation: printed-text 5s linear;
+}
+
+@keyframes printed-text {
+    from {
+        width: 0;
+    }
+}
+
+.right-desc {
+    color: #070707;
+    font-family: Gilroy-Medium;
+    font-size: 28px;
+}
+
+.download {
+    margin-bottom: 230px;
+}
+
+.download-btn {
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+.download-btn button {
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    padding: 15px 30px;
+    transition: 2s;
+}
+
+.download-btn button:hover {
+    background-color: #333333;
+    color: #fff
+}
+
+.skills-title {
+    font-family: Gilroy-Bold;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills-desc {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 80px;
+}
+
+.skills-menu {
+    max-width: 600px;
+    margin: auto;
+    background-color: #868686;
+    padding: 50px 60px;
+    margin-bottom: 120px;
+}
+
+.skills-items {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+}
+
+.skills-items span {
+    margin-left: 10px;
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+}
+
+.lines {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.linear1 {
+    width: 80%;
+    height: 10px;
+    background-color: #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.linear2 {
+    width: 20%;
+    height: 10px;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.linear3 {
+    width: 25%;
+    height: 10px;
+    background-color: #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.linear4 {
+    width: 75%;
+    height: 10px;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.linear5 {
+    width: 10%;
+    height: 10px;
+    background-color: #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.linear6 {
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.linear7 {
+    width: 90%;
+    height: 10px;
+    background-color: #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.linear8 {
+    width: 10%;
+    height: 10px;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.linear9 {
+    width: 45%;
+    height: 10px;
+    background-color: #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.linear10 {
+    width: 55%;
+    height: 10px;
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.portfolio {
+    text-align: center;
+    color:#fff;
+    background-color: #868686;
+    padding: 120px 0;
+}
+
+.portfolio-title {
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.portfolio-desc {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+
+.portfolio-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.images-cv {
+    background: url(../media/cv.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-bottom: 45px;
+}
+
+
+.col-5 {
+    cursor: pointer;
+}
+
+.images-dodo {
+    background: url(../media/dodo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-bottom: 45px;
+}
+
+.images-richard {
+    background: url(../media/richard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.images-porten {
+    background: url(../media/porten.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.contacts {
+    padding: 120px 0;
+}
+
+.form {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.form-input {
+    color: #000;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 13px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-bottom: 2px solid #868686;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+}
+
+.form-submit {
+    float: left;
+    width: 100%;
+    border: 0px solid transparent;
+    background-color: #333333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 22px 0px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    text-align: center;
+}
+
+.form-submit:hover {
+    background-color: #fff;
+    color: #868686;
+    border: 1px solid #868686;
+}
+
+.contacts-title {
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contacts-desc {
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    margin-bottom: 70px;
+    text-align: center;
+}
